@@ -8,4 +8,3 @@ function replaceOnDocument(pattern, string){
       .filter(childNode => childNode.nodeType == 3)
       .forEach(textNode => textNode.textContent = textNode.textContent.replace(pattern, string)));
 }
-
