@@ -1,0 +1,26 @@
+{
+  "name": "inclusive_block",
+  "version": "1.0.0",
+  "description": "Inclusive writing remover extension.",
+  "main": "content.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-mavaren:mavaren/inclusive_block.git"
+  },
+  "keywords": [
+    "inclusive",
+    "writing",
+    "extension",
+    "chrome",
+    "firefox"
+  ],
+  "author": "Mavaren",
+  "license": "MIT"
+}
