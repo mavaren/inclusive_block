@@ -8,6 +8,7 @@ test('True positives', () => {
   expect(purge('tou·te.s les directeur·ice.s sont convoqué·es')).toBe('tous les directeurs sont convoqués')
   expect(purge('professeur·e')).toBe('professeur')
   expect(purge('vif·ve')).toBe('vif')
+  expect(purge('vif·ve.s')).toBe('vifs')
   expect(purge("Les directeur·trice·s de ce journal sont inquiet·ète·s : iels \
                 craignent que l'écriture inclusive rende mes articles \
                 incompréhensibles. Je m'écrie : mais vous êtes fou·olle·s ! \
