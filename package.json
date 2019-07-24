@@ -5,7 +5,9 @@
   "main": "content.js",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^24.8.0"
+    "jest": "^24.8.0",
+    "webpack": "^4.37.0",
+    "webpack-cli": "^3.3.6"
   },
   "scripts": {
     "test": "jest"
