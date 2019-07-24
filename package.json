@@ -14,7 +14,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "webpack",
+    "zip": "zip inclusive_block content.js manifest.json"
   },
   "repository": {
     "type": "git",
