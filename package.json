@@ -10,7 +10,8 @@
     "webpack-cli": "^3.3.6"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
