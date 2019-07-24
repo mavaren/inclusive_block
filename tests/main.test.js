@@ -7,6 +7,7 @@ test('True positives', () => {
   expect(purge('tou·tes les directeur·ices sont convoqué·es')).toBe('tous les directeurs sont convoqués')
   expect(purge('tou·te.s les directeur·ice.s sont convoqué·es')).toBe('tous les directeurs sont convoqués')
   expect(purge('professeur·e')).toBe('professeur')
+  expect(purge('Français·e·s')).toBe('Français')
   expect(purge('vif·ve')).toBe('vif')
   expect(purge('vif·ve.s')).toBe('vifs')
   expect(purge("Les directeur·trice·s de ce journal sont inquiet·ète·s : iels \
