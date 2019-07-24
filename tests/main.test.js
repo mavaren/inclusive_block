@@ -46,6 +46,7 @@ test('True positives with .', () => {
                 Ne soyez pas si conservateurs !")
 });
 
-test('False positives with •', () => {
+test('False positives', () => {
   expect(purge('^•ㅅ•^')).toBe('^•ㅅ•^')
+  expect(purge('content.js')).toBe('content.js')
 });
