@@ -4,7 +4,7 @@
   "description": "Inclusive writing remover extension.",
   "main": "content.js",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
